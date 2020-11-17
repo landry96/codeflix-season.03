@@ -2,7 +2,7 @@ const http = require('http')
 
 const PORT = process.argv[2]
 
-// Check if PORT defined
+// Check if PORT defined 
 if (!PORT) {
   console.log('usage: node e01.js <PORT>')
   process.exit(0)
